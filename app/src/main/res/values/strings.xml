@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CollageMaker</string>
+    <string name="notification_text">Service is starting</string>
 </resources>
