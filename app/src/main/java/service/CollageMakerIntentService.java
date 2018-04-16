@@ -104,7 +104,7 @@ public class CollageMakerIntentService extends IntentService {
 
         Bitmap bmp = collageView.getDrawingCache();
 
-        // Get the Downloads folder in storage and save the collage on device 
+        // Get the Downloads folder in storage and save the collage on device
         String target = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS) + File.separator + filename;
         File f = new File(target);
 
